@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items>
+    <itemList>
+        <item>
+            <title>Task1</title>
+            <date>24.03.2014</date>
+            <priority>HIGH</priority>
+            <category>study</category>
+            <description>Study UIP</description>
+            <done>false</done>
+        </item>
+        <item>
+            <title>Task2</title>
+            <date>25.03.2014</date>
+            <priority>MEDIUM</priority>
+            <category>Study</category>
+            <description>Study AID</description>
+            <done>false</done>
+        </item>
+    </itemList>
+</items>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.3" sequence="1" timestamp="1396303101986" analysisTimestamp="1396303091318" release="">
+  <Project projectName="devgui2014">
+    <Jar>C:\Users\Sepehr\workspace\devgui2014\bin</Jar>
+    <AuxClasspathEntry>C:\Users\Sepehr\workspace\devgui2014\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Sepehr\workspace\devgui2014\Resources\jcalendar-1.4.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\Sepehr\workspace\devgui2014\Resources</SrcDir>
+    <SrcDir>C:\Users\Sepehr\workspace\devgui2014\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC_ANON" priority="3" abbrev="SIC" category="PERFORMANCE" first="1">
+    <Class classname="Controller.GUIController$5">
+      <SourceLine classname="Controller.GUIController$5" start="1" end="186" sourcefile="GUIController.java" sourcepath="Controller/GUIController.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="2" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="Controller.NewItemEvent">
+      <SourceLine classname="Controller.NewItemEvent" sourcefile="NewItemEvent.java" sourcepath="Controller/NewItemEvent.java"/>
+    </Class>
+    <Field classname="Controller.NewItemEvent" name="item" signature="LModel/Item;" isStatic="false">
+      <SourceLine classname="Controller.NewItemEvent" start="15" end="15" startBytecode="0" endBytecode="0" sourcefile="NewItemEvent.java" sourcepath="Controller/NewItemEvent.java"/>
+    </Field>
+    <Type descriptor="LModel/Item;" role="TYPE_FOUND">
+      <SourceLine classname="Model.Item" start="22" end="134" sourcefile="Item.java" sourcepath="Model/Item.java"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_NO_SERIALVERSIONID" priority="3" abbrev="SnVI" category="BAD_PRACTICE" first="1">
+    <Class classname="Controller.NewItemEvent">
+      <SourceLine classname="Controller.NewItemEvent" start="18" end="32" sourcefile="NewItemEvent.java" sourcepath="Controller/NewItemEvent.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="DE_MIGHT_IGNORE" priority="3" abbrev="DE" category="BAD_PRACTICE" first="1">
+    <Class classname="Main.Main$1">
+      <SourceLine classname="Main.Main$1" sourcefile="Main.java" sourcepath="Main/Main.java"/>
+    </Class>
+    <Method classname="Main.Main$1" name="run" signature="()V" isStatic="false">
+      <SourceLine classname="Main.Main$1" start="28" end="43" startBytecode="0" endBytecode="176" sourcefile="Main.java" sourcepath="Main/Main.java"/>
+    </Method>
+    <Class classname="java.lang.Exception" role="CLASS_EXCEPTION">
+      <SourceLine classname="java.lang.Exception"/>
+    </Class>
+    <SourceLine classname="Main.Main$1" start="33" end="33" startBytecode="23" endBytecode="23" sourcefile="Main.java" sourcepath="Main/Main.java"/>
+    <SourceLine classname="Main.Main$1" start="33" end="33" startBytecode="23" endBytecode="23" sourcefile="Main.java" sourcepath="Main/Main.java"/>
+    <SourceLine classname="Main.Main$1" start="33" end="33" startBytecode="23" endBytecode="23" sourcefile="Main.java" sourcepath="Main/Main.java"/>
+  </BugInstance>
+  <BugInstance type="REC_CATCH_EXCEPTION" priority="3" abbrev="REC" category="STYLE" first="1">
+    <Class classname="Main.Main$1">
+      <SourceLine classname="Main.Main$1" sourcefile="Main.java" sourcepath="Main/Main.java"/>
+    </Class>
+    <Method classname="Main.Main$1" name="run" signature="()V" isStatic="false">
+      <SourceLine classname="Main.Main$1" start="28" end="43" startBytecode="0" endBytecode="176" sourcefile="Main.java" sourcepath="Main/Main.java"/>
+    </Method>
+    <SourceLine classname="Main.Main$1" start="33" end="33" startBytecode="23" endBytecode="23" sourcefile="Main.java" sourcepath="Main/Main.java"/>
+    <SourceLine classname="Main.Main$1" start="33" end="33" startBytecode="23" endBytecode="23" sourcefile="Main.java" sourcepath="Main/Main.java"/>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="3" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="Model.CustomTableModel">
+      <SourceLine classname="Model.CustomTableModel" sourcefile="CustomTableModel.java" sourcepath="Model/CustomTableModel.java"/>
+    </Class>
+    <Field classname="Model.CustomTableModel" name="data" signature="Ljava/util/ArrayList;" isStatic="false">
+      <SourceLine classname="Model.CustomTableModel" start="15" end="15" startBytecode="0" endBytecode="0" sourcefile="CustomTableModel.java" sourcepath="Model/CustomTableModel.java"/>
+    </Field>
+    <Type descriptor="LModel/Item;" role="TYPE_FOUND">
+      <SourceLine classname="Model.Item" start="22" end="134" sourcefile="Item.java" sourcepath="Model/Item.java"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" abbrev="SF" category="STYLE" first="1">
+    <Class classname="Model.CustomTableModel">
+      <SourceLine classname="Model.CustomTableModel" sourcefile="CustomTableModel.java" sourcepath="Model/CustomTableModel.java"/>
+    </Class>
+    <Method classname="Model.CustomTableModel" name="getValueAt" signature="(II)Ljava/lang/Object;" isStatic="false">
+      <SourceLine classname="Model.CustomTableModel" start="51" end="74" startBytecode="0" endBytecode="269" sourcefile="CustomTableModel.java" sourcepath="Model/CustomTableModel.java"/>
+    </Method>
+    <SourceLine classname="Model.CustomTableModel" start="53" end="70" startBytecode="17" endBytecode="106" sourcefile="CustomTableModel.java" sourcepath="Model/CustomTableModel.java"/>
+    <SourceLine classname="Model.CustomTableModel" start="53" end="70" startBytecode="17" endBytecode="106" sourcefile="CustomTableModel.java" sourcepath="Model/CustomTableModel.java"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="1" abbrev="ES" category="BAD_PRACTICE" first="1">
+    <Class classname="View.AddNewItemWindow">
+      <SourceLine classname="View.AddNewItemWindow" sourcefile="AddNewItemWindow.java" sourcepath="View/AddNewItemWindow.java"/>
+    </Class>
+    <Method classname="View.AddNewItemWindow" name="initTextFields" signature="(LModel/Item;)V" isStatic="false">
+      <SourceLine classname="View.AddNewItemWindow" start="39" end="49" startBytecode="0" endBytecode="45" sourcefile="AddNewItemWindow.java" sourcepath="View/AddNewItemWindow.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String"/>
+    </Type>
+    <String value="HIGH" role="STRING_CONSTANT"/>
+    <Method classname="java.lang.Enum" name="toString" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="java.lang.Enum"/>
+    </Method>
+    <SourceLine classname="View.AddNewItemWindow" start="45" end="45" startBytecode="83" endBytecode="83" sourcefile="AddNewItemWindow.java" sourcepath="View/AddNewItemWindow.java"/>
+    <SourceLine classname="View.AddNewItemWindow" start="45" end="45" startBytecode="83" endBytecode="83" sourcefile="AddNewItemWindow.java" sourcepath="View/AddNewItemWindow.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.DYNAMIC_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="1" abbrev="ES" category="BAD_PRACTICE" first="1">
+    <Class classname="View.AddNewItemWindow">
+      <SourceLine classname="View.AddNewItemWindow" sourcefile="AddNewItemWindow.java" sourcepath="View/AddNewItemWindow.java"/>
+    </Class>
+    <Method classname="View.AddNewItemWindow" name="initTextFields" signature="(LModel/Item;)V" isStatic="false">
+      <SourceLine classname="View.AddNewItemWindow" start="39" end="49" startBytecode="0" endBytecode="45" sourcefile="AddNewItemWindow.java" sourcepath="View/AddNewItemWindow.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String"/>
+    </Type>
+    <String value="MEDIUM" role="STRING_CONSTANT"/>
+    <Method classname="java.lang.Enum" name="toString" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="java.lang.Enum"/>
+    </Method>
+    <SourceLine classname="View.AddNewItemWindow" start="43" end="43" startBytecode="53" endBytecode="53" sourcefile="AddNewItemWindow.java" sourcepath="View/AddNewItemWindow.java"/>
+    <SourceLine classname="View.AddNewItemWindow" start="43" end="43" startBytecode="53" endBytecode="53" sourcefile="AddNewItemWindow.java" sourcepath="View/AddNewItemWindow.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.DYNAMIC_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="NM_FIELD_NAMING_CONVENTION" priority="3" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="View.AddNewItemWindow">
+      <SourceLine classname="View.AddNewItemWindow" sourcefile="AddNewItemWindow.java" sourcepath="View/AddNewItemWindow.java"/>
+    </Class>
+    <Field classname="View.AddNewItemWindow" name="Category" signature="Ljavax/swing/JLabel;" isStatic="false">
+      <SourceLine classname="View.AddNewItemWindow" start="16" end="16" startBytecode="0" endBytecode="0" sourcefile="AddNewItemWindow.java" sourcepath="View/AddNewItemWindow.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="NM_FIELD_NAMING_CONVENTION" priority="3" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="View.AddNewItemWindow">
+      <SourceLine classname="View.AddNewItemWindow" sourcefile="AddNewItemWindow.java" sourcepath="View/AddNewItemWindow.java"/>
+    </Class>
+    <Field classname="View.AddNewItemWindow" name="Date" signature="Ljavax/swing/JLabel;" isStatic="false">
+      <SourceLine classname="View.AddNewItemWindow" start="16" end="16" startBytecode="0" endBytecode="0" sourcefile="AddNewItemWindow.java" sourcepath="View/AddNewItemWindow.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="NM_FIELD_NAMING_CONVENTION" priority="3" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="View.AddNewItemWindow">
+      <SourceLine classname="View.AddNewItemWindow" sourcefile="AddNewItemWindow.java" sourcepath="View/AddNewItemWindow.java"/>
+    </Class>
+    <Field classname="View.AddNewItemWindow" name="Description" signature="Ljavax/swing/JLabel;" isStatic="false">
+      <SourceLine classname="View.AddNewItemWindow" start="16" end="16" startBytecode="0" endBytecode="0" sourcefile="AddNewItemWindow.java" sourcepath="View/AddNewItemWindow.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="NM_FIELD_NAMING_CONVENTION" priority="3" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="View.AddNewItemWindow">
+      <SourceLine classname="View.AddNewItemWindow" sourcefile="AddNewItemWindow.java" sourcepath="View/AddNewItemWindow.java"/>
+    </Class>
+    <Field classname="View.AddNewItemWindow" name="Priority" signature="Ljavax/swing/JLabel;" isStatic="false">
+      <SourceLine classname="View.AddNewItemWindow" start="16" end="16" startBytecode="0" endBytecode="0" sourcefile="AddNewItemWindow.java" sourcepath="View/AddNewItemWindow.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="NM_FIELD_NAMING_CONVENTION" priority="3" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="View.AddNewItemWindow">
+      <SourceLine classname="View.AddNewItemWindow" sourcefile="AddNewItemWindow.java" sourcepath="View/AddNewItemWindow.java"/>
+    </Class>
+    <Field classname="View.AddNewItemWindow" name="Title" signature="Ljavax/swing/JLabel;" isStatic="false">
+      <SourceLine classname="View.AddNewItemWindow" start="16" end="16" startBytecode="0" endBytecode="0" sourcefile="AddNewItemWindow.java" sourcepath="View/AddNewItemWindow.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="BC_UNCONFIRMED_CAST_OF_RETURN_VALUE" priority="3" abbrev="BC" category="STYLE" first="1">
+    <Class classname="View.GUI">
+      <SourceLine classname="View.GUI" sourcefile="GUI.java" sourcepath="View/GUI.java"/>
+    </Class>
+    <Method classname="View.GUI" name="&lt;init&gt;" signature="()V" isStatic="false">
+      <SourceLine classname="View.GUI" start="17" end="17" startBytecode="0" endBytecode="17" sourcefile="GUI.java" sourcepath="View/GUI.java"/>
+    </Method>
+    <Type descriptor="Ljava/awt/Container;" role="TYPE_FOUND">
+      <SourceLine classname="java.awt.Container"/>
+    </Type>
+    <Type descriptor="Ljavax/swing/JPanel;" role="TYPE_EXPECTED">
+      <SourceLine classname="javax.swing.JPanel"/>
+    </Type>
+    <SourceLine classname="View.GUI" start="19" end="19" startBytecode="9" endBytecode="9" sourcefile="GUI.java" sourcepath="View/GUI.java"/>
+    <SourceLine classname="View.GUI" start="19" end="19" startBytecode="9" endBytecode="9" sourcefile="GUI.java" sourcepath="View/GUI.java"/>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="3" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="View.GUI">
+      <SourceLine classname="View.GUI" sourcefile="GUI.java" sourcepath="View/GUI.java"/>
+    </Class>
+    <Field classname="View.GUI" name="menu" signature="LView/GUIMenu;" isStatic="false">
+      <SourceLine classname="View.GUI" start="24" end="24" startBytecode="0" endBytecode="0" sourcefile="GUI.java" sourcepath="View/GUI.java"/>
+    </Field>
+    <Type descriptor="LView/GUIMenu;" role="TYPE_FOUND">
+      <SourceLine classname="View.GUIMenu" start="25" end="125" sourcefile="GUIMenu.java" sourcepath="View/GUIMenu.java"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SW_SWING_METHODS_INVOKED_IN_SWING_THREAD" priority="3" abbrev="SW" category="BAD_PRACTICE" first="1">
+    <Class classname="View.LED_Timer">
+      <SourceLine classname="View.LED_Timer" sourcefile="LED_Timer.java" sourcepath="View/LED_Timer.java"/>
+    </Class>
+    <Method classname="View.LED_Timer" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="View.LED_Timer" start="988" end="995" startBytecode="0" endBytecode="127" sourcefile="LED_Timer.java" sourcepath="View/LED_Timer.java"/>
+    </Method>
+    <SourceLine classname="View.LED_Timer" start="993" end="993" startBytecode="38" endBytecode="38" sourcefile="LED_Timer.java" sourcepath="View/LED_Timer.java"/>
+    <SourceLine classname="View.LED_Timer" start="993" end="993" startBytecode="38" endBytecode="38" sourcefile="LED_Timer.java" sourcepath="View/LED_Timer.java"/>
+  </BugInstance>
+  <BugInstance type="BC_UNCONFIRMED_CAST_OF_RETURN_VALUE" priority="3" abbrev="BC" category="STYLE" first="1">
+    <Class classname="View.TodaysItemsWindow">
+      <SourceLine classname="View.TodaysItemsWindow" sourcefile="TodaysItemsWindow.java" sourcepath="View/TodaysItemsWindow.java"/>
+    </Class>
+    <Method classname="View.TodaysItemsWindow" name="&lt;init&gt;" signature="()V" isStatic="false">
+      <SourceLine classname="View.TodaysItemsWindow" start="19" end="19" startBytecode="0" endBytecode="12" sourcefile="TodaysItemsWindow.java" sourcepath="View/TodaysItemsWindow.java"/>
+    </Method>
+    <Type descriptor="Ljava/awt/Container;" role="TYPE_FOUND">
+      <SourceLine classname="java.awt.Container"/>
+    </Type>
+    <Type descriptor="Ljavax/swing/JPanel;" role="TYPE_EXPECTED">
+      <SourceLine classname="javax.swing.JPanel"/>
+    </Type>
+    <SourceLine classname="View.TodaysItemsWindow" start="21" end="21" startBytecode="9" endBytecode="9" sourcefile="TodaysItemsWindow.java" sourcepath="View/TodaysItemsWindow.java"/>
+    <SourceLine classname="View.TodaysItemsWindow" start="21" end="21" startBytecode="9" endBytecode="9" sourcefile="TodaysItemsWindow.java" sourcepath="View/TodaysItemsWindow.java"/>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="3" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="View.TodaysItemsWindow">
+      <SourceLine classname="View.TodaysItemsWindow" sourcefile="TodaysItemsWindow.java" sourcepath="View/TodaysItemsWindow.java"/>
+    </Class>
+    <Field classname="View.TodaysItemsWindow" name="database" signature="LModel/DBJaxb;" isStatic="false">
+      <SourceLine classname="View.TodaysItemsWindow" start="25" end="25" startBytecode="0" endBytecode="0" sourcefile="TodaysItemsWindow.java" sourcepath="View/TodaysItemsWindow.java"/>
+    </Field>
+    <Type descriptor="LModel/DBJaxb;" role="TYPE_FOUND">
+      <SourceLine classname="Model.DBJaxb" start="15" end="68" sourcefile="DBJaxb.java" sourcepath="Model/DBJaxb.java"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="View.customListModel">
+      <SourceLine classname="View.customListModel" start="15" end="36" sourcefile="customListModel.java" sourcepath="View/customListModel.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="3" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="View.customListModel">
+      <SourceLine classname="View.customListModel" sourcefile="customListModel.java" sourcepath="View/customListModel.java"/>
+    </Class>
+    <Field classname="View.customListModel" name="data" signature="Ljava/util/ArrayList;" isStatic="false">
+      <SourceLine classname="View.customListModel" start="13" end="13" startBytecode="0" endBytecode="0" sourcefile="customListModel.java" sourcepath="View/customListModel.java"/>
+    </Field>
+    <Type descriptor="LModel/Item;" role="TYPE_FOUND">
+      <SourceLine classname="Model.Item" start="22" end="134" sourcefile="Item.java" sourcepath="Model/Item.java"/>
+    </Type>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 31 Mar 2014 22:20:43 +0200" total_classes="41" referenced_classes="424" total_bugs="21" total_size="2513" num_packages="4" vm_version="23.25-b01" cpu_seconds="44.51" clock_seconds="485.58" peak_mbytes="296.39" alloc_mbytes="455.12" gc_seconds="3.23" priority_3="16" priority_2="3" priority_1="2">
+    <PackageStats package="Controller" total_bugs="3" total_types="15" total_size="269" priority_3="2" priority_2="1">
+      <ClassStats class="Controller.GUIController" sourceFile="GUIController.java" interface="false" size="65" bugs="0"/>
+      <ClassStats class="Controller.GUIController$1" sourceFile="GUIController.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="Controller.GUIController$2" sourceFile="GUIController.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="Controller.GUIController$3" sourceFile="GUIController.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="Controller.GUIController$4" sourceFile="GUIController.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="Controller.GUIController$4$1" sourceFile="GUIController.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="Controller.GUIController$5" sourceFile="GUIController.java" interface="false" size="9" bugs="1" priority_3="1"/>
+      <ClassStats class="Controller.ItemWindowController" sourceFile="ItemWindowController.java" interface="false" size="35" bugs="0"/>
+      <ClassStats class="Controller.ItemWindowController$1" sourceFile="ItemWindowController.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="Controller.LanguageController" sourceFile="LanguageController.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="Controller.NewItemEvent" sourceFile="NewItemEvent.java" interface="false" size="8" bugs="2" priority_3="1" priority_2="1"/>
+      <ClassStats class="Controller.NewItemListener" sourceFile="NewItemListener.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="Controller.TableController" sourceFile="TableController.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="Controller.TableController$1" sourceFile="TableController.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="Controller.TableController$2" sourceFile="TableController.java" interface="false" size="10" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="Main" total_bugs="2" total_types="2" total_size="24" priority_3="2">
+      <ClassStats class="Main.Main" sourceFile="Main.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="Main.Main$1" sourceFile="Main.java" interface="false" size="17" bugs="2" priority_3="2"/>
+    </PackageStats>
+    <PackageStats package="Model" total_bugs="2" total_types="5" total_size="169" priority_3="1" priority_2="1">
+      <ClassStats class="Model.CustomTableModel" sourceFile="CustomTableModel.java" interface="false" size="54" bugs="2" priority_3="1" priority_2="1"/>
+      <ClassStats class="Model.DBJaxb" sourceFile="DBJaxb.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="Model.Item" sourceFile="Item.java" interface="false" size="36" bugs="0"/>
+      <ClassStats class="Model.Items" sourceFile="Items.java" interface="false" size="26" bugs="0"/>
+      <ClassStats class="Model.Priority" sourceFile="Priority.java" interface="false" size="26" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="View" total_bugs="14" total_types="19" total_size="2051" priority_3="11" priority_2="1" priority_1="2">
+      <ClassStats class="View.AddNewItemWindow" sourceFile="AddNewItemWindow.java" interface="false" size="84" bugs="7" priority_3="5" priority_1="2"/>
+      <ClassStats class="View.AppTheme" sourceFile="AppTheme.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="View.DetailsPanel" sourceFile="DetailsPanel.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="View.DetailsPanel$1" sourceFile="DetailsPanel.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="View.GUI" sourceFile="GUI.java" interface="false" size="53" bugs="2" priority_3="2"/>
+      <ClassStats class="View.GUIMenu" sourceFile="GUIMenu.java" interface="false" size="44" bugs="0"/>
+      <ClassStats class="View.ItemListCellRenderer" sourceFile="ItemListCellRenderer.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="View.ItemTableCellRenderer" sourceFile="ItemTableCellRenderer.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="View.LED_Clock" sourceFile="LED_Clock.java" interface="false" size="808" bugs="0"/>
+      <ClassStats class="View.LED_Clock$1" sourceFile="LED_Clock.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="View.LED_Timer" sourceFile="LED_Timer.java" interface="false" size="842" bugs="1" priority_3="1"/>
+      <ClassStats class="View.LED_Timer$1" sourceFile="LED_Timer.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="View.LED_Timer$2" sourceFile="LED_Timer.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="View.LED_Timer$3" sourceFile="LED_Timer.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="View.LED_Timer$4" sourceFile="LED_Timer.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="View.LED_Timer$5" sourceFile="LED_Timer.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="View.TablePanel" sourceFile="TablePanel.java" interface="false" size="25" bugs="0"/>
+      <ClassStats class="View.TodaysItemsWindow" sourceFile="TodaysItemsWindow.java" interface="false" size="23" bugs="2" priority_3="2"/>
+      <ClassStats class="View.customListModel" sourceFile="customListModel.java" interface="false" size="13" bugs="2" priority_3="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="1388" invocations="1707" avgMicrosecondsPerInvocation="813" maxMicrosecondsPerInvocation="216691" standardDeviationMircosecondsPerInvocation="6382"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="1139" invocations="2" avgMicrosecondsPerInvocation="569827" maxMicrosecondsPerInvocation="822507" standardDeviationMircosecondsPerInvocation="252680"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="1007" invocations="424" avgMicrosecondsPerInvocation="2375" maxMicrosecondsPerInvocation="105265" standardDeviationMircosecondsPerInvocation="8480"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="799" invocations="424" avgMicrosecondsPerInvocation="1886" maxMicrosecondsPerInvocation="228235" standardDeviationMircosecondsPerInvocation="16749"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="577" invocations="1710" avgMicrosecondsPerInvocation="337" maxMicrosecondsPerInvocation="32894" standardDeviationMircosecondsPerInvocation="1659"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="564" invocations="904" avgMicrosecondsPerInvocation="624" maxMicrosecondsPerInvocation="127045" standardDeviationMircosecondsPerInvocation="4417"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="363" invocations="424" avgMicrosecondsPerInvocation="857" maxMicrosecondsPerInvocation="93255" standardDeviationMircosecondsPerInvocation="5084"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="352" invocations="424" avgMicrosecondsPerInvocation="831" maxMicrosecondsPerInvocation="182997" standardDeviationMircosecondsPerInvocation="9245"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="283" invocations="146" avgMicrosecondsPerInvocation="1938" maxMicrosecondsPerInvocation="61025" standardDeviationMircosecondsPerInvocation="7022"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="269" invocations="144" avgMicrosecondsPerInvocation="1869" maxMicrosecondsPerInvocation="72892" standardDeviationMircosecondsPerInvocation="6766"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="257" invocations="144" avgMicrosecondsPerInvocation="1786" maxMicrosecondsPerInvocation="51880" standardDeviationMircosecondsPerInvocation="5078"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="190" invocations="144" avgMicrosecondsPerInvocation="1319" maxMicrosecondsPerInvocation="29155" standardDeviationMircosecondsPerInvocation="3432"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.InitializationChain" totalMilliseconds="184" invocations="41" avgMicrosecondsPerInvocation="4491" maxMicrosecondsPerInvocation="182832" standardDeviationMircosecondsPerInvocation="28198"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="175" invocations="424" avgMicrosecondsPerInvocation="413" maxMicrosecondsPerInvocation="61817" standardDeviationMircosecondsPerInvocation="3367"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="167" invocations="150" avgMicrosecondsPerInvocation="1119" maxMicrosecondsPerInvocation="22581" standardDeviationMircosecondsPerInvocation="2994"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.URLProblems" totalMilliseconds="166" invocations="41" avgMicrosecondsPerInvocation="4070" maxMicrosecondsPerInvocation="119303" standardDeviationMircosecondsPerInvocation="19008"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="159" invocations="147" avgMicrosecondsPerInvocation="1087" maxMicrosecondsPerInvocation="25964" standardDeviationMircosecondsPerInvocation="2947"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1396303101982" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

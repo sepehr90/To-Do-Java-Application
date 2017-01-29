@@ -1,0 +1,225 @@
+package View;
+
+import java.awt.BorderLayout;
+import java.awt.GridLayout;
+import java.awt.Insets;
+
+import javax.swing.BorderFactory;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+
+<<<<<<< HEAD
+//import Controller.MenuActions;
+=======
+import Controller.LanguageController;
+import Controller.MenuActions;
+import Controller.NewItemEvent;
+import Controller.NewItemListener;
+import Model.DBJaxb;
+import Model.Item;
+import Model.Items;
+import View.TablePanel.TableModel;
+>>>>>>> 7e67243dcf1a5a5d07b8a7783c2ecad536ad01d4
+
+@SuppressWarnings("serial")
+public class GUI extends JFrame {
+
+	private JPanel contentPane = (JPanel) getContentPane();
+	private JPanel top = new JPanel();
+<<<<<<< HEAD
+	private ImageIcon dateIcon,sortIcon,prioIcon,addIcon;
+	
+	public DetailsPanel detailsPanel;
+	public JButton addButton, dateButton, sortButton, prioButton;
+	public GUIMenu menu;
+=======
+	private TablePanel tablePanel;
+	private JTextField textField = new JTextField(20);
+	private LanguageController language = new LanguageController(); 
+	private Preferences preferences;
+	private GUIMenu menu;
+	private DBJaxb database = new DBJaxb();
+	private JButton addButton, dateButton, sortButton, prioButton;
+	private ImageIcon dateIcon,sortIcon,prioIcon,addIcon;
+	
+
+	/**
+	 * Default Constructor
+	 */
+	
+	public GUI() {
+
+		initUI();
+		initUIsettings();
+		updateLanguage();
+	}
+	
+>>>>>>> 7e67243dcf1a5a5d07b8a7783c2ecad536ad01d4
+	
+	/**
+	* Initialize the GUI.
+	*/
+	public final void initUI() {
+
+		setLayout(new BorderLayout());
+		contentPane.setBorder(new EmptyBorder(new Insets(20, 20, 20, 20)));
+
+		// Add a menu
+		menu = new GUIMenu();
+		setJMenuBar(menu.getMenuBar());
+		
+		
+		// TOP Panel, (this can be made in a new class similar to detailsPanel)
+		top.setLayout(new GridLayout(1, 4, 5, 5));
+		top.setBorder(BorderFactory.createEmptyBorder(5, 5, 5, 5));
+
+		
+		// Create components
+		dateIcon = new ImageIcon(System.getProperty("user.dir") + "/Resources/date.png");
+		sortIcon = new ImageIcon(System.getProperty("user.dir") + "/Resources/view_sort_descending.png");
+		prioIcon = new ImageIcon(System.getProperty("user.dir") + "/Resources/priority.png");
+		addIcon = new ImageIcon(System.getProperty("user.dir") + "/Resources/add.gif");
+
+		// Create components
+<<<<<<< HEAD
+		dateButton = new JButton("");
+		sortButton = new JButton("");// TODO change to a Drop-dwon
+		prioButton = new JButton("");// TODO change to a Drop-dwon
+		addButton = new JButton("");
+		detailsPanel = new DetailsPanel();
+=======
+		dateButton = new JButton(language.getTranslate("s1"));
+		sortButton = new JButton(language.getTranslate("s2"));// TODO change to a Drop-dwon
+		prioButton = new JButton(language.getTranslate("s3"));// TODO change to a Drop-dwon
+		addButton = new JButton(language.getTranslate("s4"));
+		
+		// Load any stored item from XML database and populate the table with them.
+		Items items = database.loadItems();
+		tablePanel = new TablePanel(items.getItemList());
+>>>>>>> 7e67243dcf1a5a5d07b8a7783c2ecad536ad01d4
+		
+		dateButton.setIcon(dateIcon);
+		sortButton.setIcon(sortIcon);
+		prioButton.setIcon(prioIcon);
+		addButton.setIcon(addIcon);
+		
+		// Add components to contentsPane and top panel
+		top.add(dateButton);
+		top.add(sortButton);
+		top.add(prioButton);
+		top.add(addButton);
+		add(top, BorderLayout.NORTH);
+		add(tablePanel);
+
+		pack();
+<<<<<<< HEAD
+		
+=======
+
+		// When add button is pushed, create a "new item" frame.
+		addButton.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent event) {
+				AddNewItemWindow window = new AddNewItemWindow();
+
+				
+				// Add item listener.
+				window.addNewItemListener(new NewItemListener() {
+					// Get item from events when they occur and append them to the list component.
+					@Override
+					public void newItemEventOccurred(NewItemEvent event) {
+						Item item = event.getItem();
+						TableModel model = tablePanel.getTableModel();
+						model.setValueAt(item, 0, 0); // (..,row,col) is not used but is there because its a override method. It can be used to change individual fields.
+						database.storeItems();
+					}
+				});
+
+				//setting language to the AddNewItemWindow
+				window.setTranslate(language.getTranslate("s11"),
+									language.getTranslate("s12"), 
+									language.getTranslate("s1"),
+									language.getTranslate("s3"),
+									language.getTranslate("s13"),
+									language.getTranslate("s14"));
+			}
+
+	});
+		
+		/**
+		* On default window close, save this frame settings in user preference and exit.
+		* 
+		*  @author Jens Lundin
+		*/
+		addWindowListener(new WindowAdapter() {
+			
+			@Override
+			public void windowClosing(WindowEvent event) {
+				preferences.putInt("xPos", getX());
+				preferences.putInt("yPos", getY());
+				preferences.putInt("width", getWidth());
+				preferences.putInt("height", getHeight());
+				preferences.put("language", Locale.getDefault().toString());
+				System.exit(0);
+			}
+		});
+		
+	}
+	
+	/**
+	 * @return Returns the object GUI
+	 */
+	
+	public GUIMenu getGUIMenu(){
+		return menu;
+	}
+
+	/**
+	 * Load window size, position and language settings from user preferences.
+	 * 
+	 * @author Jens Lundin
+	 */
+	public final void initUIsettings() {
+		Preferences root = Preferences.userRoot();
+		this.preferences = root.node("/prefs");
+		
+		int left = this.preferences.getInt("xPos", 0);
+		int top = this.preferences.getInt("yPos", 0);
+		int width = this.preferences.getInt("width", 400);
+		int height = this.preferences.getInt("height", 400);
+		
+		String languageString = this.preferences.get("language", Locale.ENGLISH.toString());
+		language = new LanguageController(languageString);
+		updateLanguage();
+		setBounds(left, top, width, height);
+	}
+	
+	
+	
+	/**
+	 * updates the text in components for GUI & GUIMenu
+	 */
+	
+	public void updateLanguage()
+	{
+		dateButton.setText(language.getTranslate("s1"));
+		sortButton.setText(language.getTranslate("s2"));
+		prioButton.setText(language.getTranslate("s3"));
+		addButton.setText(language.getTranslate("s4"));
+		menu.setTranslate(language.getTranslate("s7"), 
+							language.getTranslate("s8"),
+							language.getTranslate("s9"), 
+							language.getTranslate("s10"), 
+							language.getTranslate("s5"), 
+							language.getTranslate("s6"));
+		
+		
+		
+>>>>>>> 7e67243dcf1a5a5d07b8a7783c2ecad536ad01d4
+	}
+}
+	

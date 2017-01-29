@@ -1,0 +1,581 @@
+src/Controller/GUIController.java:1:	Package name contains upper case characters
+src/Controller/GUIController.java:22:	This class has too many methods, consider refactoring it.
+src/Controller/GUIController.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Controller/GUIController.java:24:	Private field 'mainGUI' could be made final; it is only initialized in the declaration or constructor.
+src/Controller/GUIController.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Controller/GUIController.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Controller/GUIController.java:27:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Controller/GUIController.java:28:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Controller/GUIController.java:28:	Private field 'database' could be made final; it is only initialized in the declaration or constructor.
+src/Controller/GUIController.java:30:	Parameter 'gui' is not assigned and could be declared final
+src/Controller/GUIController.java:40:	Potential violation of Law of Demeter (static property access)
+src/Controller/GUIController.java:41:	Potential violation of Law of Demeter (static property access)
+src/Controller/GUIController.java:42:	Potential violation of Law of Demeter (static property access)
+src/Controller/GUIController.java:43:	Potential violation of Law of Demeter (static property access)
+src/Controller/GUIController.java:44:	Potential violation of Law of Demeter (method chain calls)
+src/Controller/GUIController.java:67:	Local variable 'root' could be declared final
+src/Controller/GUIController.java:70:	Local variable 'left' could be declared final
+src/Controller/GUIController.java:71:	Local variable 'top' could be declared final
+src/Controller/GUIController.java:72:	Local variable 'width' could be declared final
+src/Controller/GUIController.java:73:	Local variable 'height' could be declared final
+src/Controller/GUIController.java:75:	Local variable 'languageString' could be declared final
+src/Controller/GUIController.java:75:	Potential violation of Law of Demeter (static property access)
+src/Controller/GUIController.java:89:	Parameter 'event' is not assigned and could be declared final
+src/Controller/GUIController.java:94:	Potential violation of Law of Demeter (method chain calls)
+src/Controller/GUIController.java:94:	Potential violation of Law of Demeter (method chain calls)
+src/Controller/GUIController.java:96:	System.exit() should not be used in J2EE/JEE apps
+src/Controller/GUIController.java:108:	Local variable 'items' could be declared final
+src/Controller/GUIController.java:109:	Local variable 'tableModel' could be declared final
+src/Controller/GUIController.java:110:	Local variable 'tablePanel' could be declared final
+src/Controller/GUIController.java:122:	Avoid variables with short names like e
+src/Controller/GUIController.java:122:	Parameter 'e' is not assigned and could be declared final
+src/Controller/GUIController.java:135:	Avoid variables with short names like e
+src/Controller/GUIController.java:135:	Parameter 'e' is not assigned and could be declared final
+src/Controller/GUIController.java:148:	Parameter 'event' is not assigned and could be declared final
+src/Controller/GUIController.java:150:	Local variable 'itemWindow' could be declared final
+src/Controller/GUIController.java:151:	Local variable 'windowController' could be declared final
+src/Controller/GUIController.java:164:	Parameter 'event' is not assigned and could be declared final
+src/Controller/GUIController.java:165:	Local variable 'item' could be declared final
+src/Controller/GUIController.java:170:	Local variable 'model' could be declared final
+src/Controller/GUIController.java:171:	Potential violation of Law of Demeter (object not created locally)
+src/Controller/GUIController.java:182:	Parameter 'event' is not assigned and could be declared final
+src/Controller/GUIController.java:183:	Local variable 'window' could be declared final
+src/Controller/ItemWindowController.java:1:	Package name contains upper case characters
+src/Controller/ItemWindowController.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Controller/ItemWindowController.java:15:	Private field 'window' could be made final; it is only initialized in the declaration or constructor.
+src/Controller/ItemWindowController.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Controller/ItemWindowController.java:16:	Private field 'listenerList' could be made final; it is only initialized in the declaration or constructor.
+src/Controller/ItemWindowController.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Controller/ItemWindowController.java:17:	Private field 'language' could be made final; it is only initialized in the declaration or constructor.
+src/Controller/ItemWindowController.java:19:	Parameter 'window' is not assigned and could be declared final
+src/Controller/ItemWindowController.java:27:	Comment is too large: Line too long
+src/Controller/ItemWindowController.java:30:	Parameter 'event' is not assigned and could be declared final
+src/Controller/ItemWindowController.java:32:	Found 'DD'-anomaly for variable 'priorityString' (lines '32'-'38').
+src/Controller/ItemWindowController.java:32:	Found 'DD'-anomaly for variable 'priorityString' (lines '32'-'38').
+src/Controller/ItemWindowController.java:32:	Potential violation of Law of Demeter (static property access)
+src/Controller/ItemWindowController.java:34:	Local variable 'buttons' could be declared final
+src/Controller/ItemWindowController.java:34:	Potential violation of Law of Demeter (object not created locally)
+src/Controller/ItemWindowController.java:34:	Potential violation of Law of Demeter (static property access)
+src/Controller/ItemWindowController.java:35:	Local variable 'button' could be declared final
+src/Controller/ItemWindowController.java:35:	Potential violation of Law of Demeter (object not created locally)
+src/Controller/ItemWindowController.java:37:	Potential violation of Law of Demeter (object not created locally)
+src/Controller/ItemWindowController.java:38:	Found 'DD'-anomaly for variable 'priorityString' (lines '38'-'38').
+src/Controller/ItemWindowController.java:38:	Found 'DD'-anomaly for variable 'priorityString' (lines '38'-'38').
+src/Controller/ItemWindowController.java:38:	Potential violation of Law of Demeter (object not created locally)
+src/Controller/ItemWindowController.java:43:	Local variable 'dateFormat' could be declared final
+src/Controller/ItemWindowController.java:43:	When instantiating a SimpleDateFormat object, specify a Locale
+src/Controller/ItemWindowController.java:44:	Local variable 'date' could be declared final
+src/Controller/ItemWindowController.java:44:	Potential violation of Law of Demeter (static property access)
+src/Controller/ItemWindowController.java:46:	Local variable 'item' could be declared final
+src/Controller/ItemWindowController.java:46:	Potential violation of Law of Demeter (static property access)
+src/Controller/ItemWindowController.java:47:	Potential violation of Law of Demeter (static property access)
+src/Controller/ItemWindowController.java:50:	Potential violation of Law of Demeter (static property access)
+src/Controller/ItemWindowController.java:75:	Comment is too large: Line too long
+src/Controller/ItemWindowController.java:78:	Parameter 'event' is not assigned and could be declared final
+src/Controller/ItemWindowController.java:79:	Local variable 'listeners' could be declared final
+src/Controller/ItemWindowController.java:80:	Comment is too large: Line too long
+src/Controller/ItemWindowController.java:94:	Parameter 'listener' is not assigned and could be declared final
+src/Controller/LanguageController.java:1:	Package name contains upper case characters
+src/Controller/LanguageController.java:9:	Document empty constructor
+src/Controller/LanguageController.java:20:	Parameter 'languageString' is not assigned and could be declared final
+src/Controller/LanguageController.java:23:	Avoid using if...else statements without curly braces
+src/Controller/LanguageController.java:24:	Avoid using if statements without curly braces
+src/Controller/LanguageController.java:35:	Parameter 'text' is not assigned and could be declared final
+src/Controller/LanguageController.java:37:	Local variable 'labels' could be declared final
+src/Controller/LanguageController.java:38:	Potential violation of Law of Demeter (object not created locally)
+src/Controller/LanguageController.java:43:	Potential violation of Law of Demeter (method chain calls)
+src/Controller/NewItemEvent.java:1:	Package name contains upper case characters
+src/Controller/NewItemEvent.java:15:	Private field 'item' could be made final; it is only initialized in the declaration or constructor.
+src/Controller/NewItemEvent.java:17:	Parameter 'item' is not assigned and could be declared final
+src/Controller/NewItemEvent.java:17:	Parameter 'source' is not assigned and could be declared final
+src/Controller/NewItemListener.java:1:	Package name contains upper case characters
+src/Controller/NewItemListener.java:12:	Avoid modifiers which are implied by the context
+src/Controller/TableController.java:1:	Package name contains upper case characters
+src/Controller/TableController.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Controller/TableController.java:16:	Private field 'tablePanel' could be made final; it is only initialized in the declaration or constructor.
+src/Controller/TableController.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Controller/TableController.java:17:	Private field 'table' could be made final; it is only initialized in the declaration or constructor.
+src/Controller/TableController.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Controller/TableController.java:18:	Private field 'tableModel' could be made final; it is only initialized in the declaration or constructor.
+src/Controller/TableController.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Controller/TableController.java:19:	Perhaps 'menuListener' could be replaced by a local variable.
+src/Controller/TableController.java:21:	Parameter 'tableModel' is not assigned and could be declared final
+src/Controller/TableController.java:21:	Parameter 'tablePanel' is not assigned and could be declared final
+src/Controller/TableController.java:26:	Overridable method 'addActionsToButtonsAndMenus' called during object construction
+src/Controller/TableController.java:33:	Avoid variables with short names like e
+src/Controller/TableController.java:33:	Parameter 'e' is not assigned and could be declared final
+src/Controller/TableController.java:34:	Avoid variables with short names like r
+src/Controller/TableController.java:34:	Local variable 'r' could be declared final
+src/Controller/TableController.java:44:	Parameter 'event' is not assigned and could be declared final
+src/Controller/TableController.java:45:	Local variable 'menu' could be declared final
+src/Controller/TableController.java:52:	Potential violation of Law of Demeter (method chain calls)
+src/Main/Main.java:1:	Package name contains upper case characters
+src/Main/Main.java:12:	A Classname should have a minimum of five characters
+src/Main/Main.java:12:	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/Main/Main.java:20:	Parameter 'args' is not assigned and could be declared final
+src/Main/Main.java:22:	To be compliant to J2EE, a webapp should not use any thread.
+src/Main/Main.java:33:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/Main/Main.java:33:	Avoid empty catch blocks
+src/Main/Main.java:33:	Avoid empty catch blocks
+src/Main/Main.java:37:	Local variable 'mainGUIController' could be declared final
+src/Model/CustomTableModel.java:1:	Package name contains upper case characters
+src/Model/CustomTableModel.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Model/CustomTableModel.java:14:	Private field 'columnNames' could be made final; it is only initialized in the declaration or constructor.
+src/Model/CustomTableModel.java:15:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/Model/CustomTableModel.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Model/CustomTableModel.java:15:	Private field 'data' could be made final; it is only initialized in the declaration or constructor.
+src/Model/CustomTableModel.java:17:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/Model/CustomTableModel.java:17:	It is a good practice to call super() in a constructor
+src/Model/CustomTableModel.java:17:	Parameter 'items' is not assigned and could be declared final
+src/Model/CustomTableModel.java:27:	Avoid variables with short names like nr
+src/Model/CustomTableModel.java:27:	Parameter 'nr' is not assigned and could be declared final
+src/Model/CustomTableModel.java:36:	Parameter 'col' is not assigned and could be declared final
+src/Model/CustomTableModel.java:36:	Parameter 'row' is not assigned and could be declared final
+src/Model/CustomTableModel.java:37:	Avoid unnecessary if..then..else statements when returning booleans
+src/Model/CustomTableModel.java:37:	Avoid using Literals in Conditional Statements
+src/Model/CustomTableModel.java:38:	A method should have only one exit point, and that should be the last statement in the method
+src/Model/CustomTableModel.java:45:	Avoid variables with short names like c
+src/Model/CustomTableModel.java:45:	Parameter 'c' is not assigned and could be declared final
+src/Model/CustomTableModel.java:46:	Potential violation of Law of Demeter (method chain calls)
+src/Model/CustomTableModel.java:50:	Parameter 'col' is not assigned and could be declared final
+src/Model/CustomTableModel.java:50:	Parameter 'row' is not assigned and could be declared final
+src/Model/CustomTableModel.java:51:	Found 'DD'-anomaly for variable 'value' (lines '51'-'55').
+src/Model/CustomTableModel.java:51:	Found 'DD'-anomaly for variable 'value' (lines '51'-'58').
+src/Model/CustomTableModel.java:51:	Found 'DD'-anomaly for variable 'value' (lines '51'-'61').
+src/Model/CustomTableModel.java:51:	Found 'DD'-anomaly for variable 'value' (lines '51'-'64').
+src/Model/CustomTableModel.java:51:	Found 'DD'-anomaly for variable 'value' (lines '51'-'67').
+src/Model/CustomTableModel.java:51:	Found 'DD'-anomaly for variable 'value' (lines '51'-'70').
+src/Model/CustomTableModel.java:52:	Found 'DU'-anomaly for variable 'item' (lines '52'-'75').
+src/Model/CustomTableModel.java:52:	Local variable 'item' could be declared final
+src/Model/CustomTableModel.java:53:	Switch statements should have a default label
+src/Model/CustomTableModel.java:55:	Potential violation of Law of Demeter (object not created locally)
+src/Model/CustomTableModel.java:58:	Potential violation of Law of Demeter (object not created locally)
+src/Model/CustomTableModel.java:61:	Potential violation of Law of Demeter (object not created locally)
+src/Model/CustomTableModel.java:64:	Potential violation of Law of Demeter (object not created locally)
+src/Model/CustomTableModel.java:67:	Potential violation of Law of Demeter (object not created locally)
+src/Model/CustomTableModel.java:70:	Potential violation of Law of Demeter (object not created locally)
+src/Model/CustomTableModel.java:78:	Parameter 'col' is not assigned and could be declared final
+src/Model/CustomTableModel.java:78:	Parameter 'row' is not assigned and could be declared final
+src/Model/CustomTableModel.java:78:	Parameter 'value' is not assigned and could be declared final
+src/Model/CustomTableModel.java:79:	Avoid using Literals in Conditional Statements
+src/Model/CustomTableModel.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/Model/CustomTableModel.java:86:	Parameter 'table' is not assigned and could be declared final
+src/Model/CustomTableModel.java:87:	Local variable 'selectedRow' could be declared final
+src/Model/CustomTableModel.java:94:	Parameter 'table' is not assigned and could be declared final
+src/Model/CustomTableModel.java:95:	Found 'DD'-anomaly for variable 'item' (lines '95'-'98').
+src/Model/CustomTableModel.java:96:	Local variable 'selectedRow' could be declared final
+src/Model/DBJaxb.java:1:	Package name contains upper case characters
+src/Model/DBJaxb.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Model/DBJaxb.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Model/DBJaxb.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Model/DBJaxb.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Model/DBJaxb.java:27:	Local variable 'jaxbContext' could be declared final
+src/Model/DBJaxb.java:33:	Avoid printStackTrace(); use a logger call instead.
+src/Model/DBJaxb.java:50:	Avoid printStackTrace(); use a logger call instead.
+src/Model/DBJaxb.java:50:	Potential violation of Law of Demeter (object not created locally)
+src/Model/DBJaxb.java:66:	Avoid printStackTrace(); use a logger call instead.
+src/Model/Item.java:1:	Package name contains upper case characters
+src/Model/Item.java:7:	No need to import a type that lives in the same package
+src/Model/Item.java:16:	A Classname should have a minimum of five characters
+src/Model/Item.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Model/Item.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Model/Item.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Model/Item.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Model/Item.java:21:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Model/Item.java:30:	Document empty constructor
+src/Model/Item.java:40:	Parameter 'date' is not assigned and could be declared final
+src/Model/Item.java:40:	Parameter 'description' is not assigned and could be declared final
+src/Model/Item.java:40:	Parameter 'priority' is not assigned and could be declared final
+src/Model/Item.java:40:	Parameter 'title' is not assigned and could be declared final
+src/Model/Item.java:41:	Parameter 'category' is not assigned and could be declared final
+src/Model/Item.java:76:	Parameter 'value' is not assigned and could be declared final
+src/Model/Items.java:1:	Package name contains upper case characters
+src/Model/Items.java:22:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/Model/Items.java:30:	Parameter 'item' is not assigned and could be declared final
+src/Model/Items.java:40:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/Model/Items.java:40:	Parameter 'items' is not assigned and could be declared final
+src/Model/Items.java:52:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/Model/Items.java:71:	Local variable 'dateFormat' could be declared final
+src/Model/Items.java:71:	When instantiating a SimpleDateFormat object, specify a Locale
+src/Model/Items.java:72:	Local variable 'cal' could be declared final
+src/Model/Items.java:73:	Found 'DU'-anomaly for variable 'currentDate' (lines '73'-'90').
+src/Model/Items.java:73:	Local variable 'currentDate' could be declared final
+src/Model/Items.java:76:	Local variable 'result' could be declared final
+src/Model/Items.java:79:	Local variable 'iter' could be declared final
+src/Model/Items.java:80:	Local variable 'current' could be declared final
+src/Model/Items.java:82:	Potential violation of Law of Demeter (method chain calls)
+src/Model/Items.java:82:	Potential violation of Law of Demeter (object not created locally)
+src/Model/Items.java:82:	Potential violation of Law of Demeter (object not created locally)
+src/Model/Priority.java:1:	Package name contains upper case characters
+src/Model/Priority.java:23:	Parameter 'color' is not assigned and could be declared final
+src/Model/Priority.java:41:	Parameter 'enumString' is not assigned and could be declared final
+src/Model/Priority.java:42:	Position literals first in String comparisons
+src/Model/Priority.java:43:	A method should have only one exit point, and that should be the last statement in the method
+src/Model/Priority.java:43:	Avoid using if...else statements without curly braces
+src/Model/Priority.java:44:	Position literals first in String comparisons
+src/Model/Priority.java:45:	A method should have only one exit point, and that should be the last statement in the method
+src/Model/Priority.java:45:	Avoid using if...else statements without curly braces
+src/Model/Priority.java:46:	Position literals first in String comparisons
+src/Model/Priority.java:47:	A method should have only one exit point, and that should be the last statement in the method
+src/Model/Priority.java:47:	Avoid using if...else statements without curly braces
+src/Model/Priority.java:49:	Avoid using if...else statements without curly braces
+src/View/AddNewItemWindow.java:1:	Package name contains upper case characters
+src/View/AddNewItemWindow.java:16:	Variables should start with a lowercase character, 'Category' starts with uppercase character.
+src/View/AddNewItemWindow.java:16:	Variables should start with a lowercase character, 'Date' starts with uppercase character.
+src/View/AddNewItemWindow.java:16:	Variables should start with a lowercase character, 'Description' starts with uppercase character.
+src/View/AddNewItemWindow.java:16:	Variables should start with a lowercase character, 'Priority' starts with uppercase character.
+src/View/AddNewItemWindow.java:16:	Variables should start with a lowercase character, 'Title' starts with uppercase character.
+src/View/AddNewItemWindow.java:18:	Avoid excessively long variable names like priorityRadioButtons
+src/View/AddNewItemWindow.java:19:	Perhaps 'lowBtn' could be replaced by a local variable.
+src/View/AddNewItemWindow.java:27:	Parameter 'date' is not assigned and could be declared final
+src/View/AddNewItemWindow.java:27:	Parameter 'description' is not assigned and could be declared final
+src/View/AddNewItemWindow.java:27:	Parameter 'title' is not assigned and could be declared final
+src/View/AddNewItemWindow.java:27:	Rather than using a lot of String arguments, consider using a container object for those values.
+src/View/AddNewItemWindow.java:28:	Parameter 'Submit' is not assigned and could be declared final
+src/View/AddNewItemWindow.java:28:	Parameter 'category' is not assigned and could be declared final
+src/View/AddNewItemWindow.java:28:	Parameter 'priority' is not assigned and could be declared final
+src/View/AddNewItemWindow.java:28:	Variables should start with a lowercase character, 'Submit' starts with uppercase character.
+src/View/AddNewItemWindow.java:38:	Parameter 'item' is not assigned and could be declared final
+src/View/AddNewItemWindow.java:43:	Avoid using Literals in Conditional Statements
+src/View/AddNewItemWindow.java:43:	Potential violation of Law of Demeter (method chain calls)
+src/View/AddNewItemWindow.java:43:	Use equals() to compare strings instead of '==' or '!='
+src/View/AddNewItemWindow.java:45:	Avoid using Literals in Conditional Statements
+src/View/AddNewItemWindow.java:45:	Potential violation of Law of Demeter (method chain calls)
+src/View/AddNewItemWindow.java:45:	Use equals() to compare strings instead of '==' or '!='
+src/View/AddNewItemWindow.java:69:	Local variable 'mainPanel' could be declared final
+src/View/AddNewItemWindow.java:71:	Local variable 'labelPanel' could be declared final
+src/View/AddNewItemWindow.java:72:	Local variable 'textFieldsPanel' could be declared final
+src/View/AddNewItemWindow.java:87:	Local variable 'cal' could be declared final
+src/View/AddNewItemWindow.java:93:	Local variable 'priorityPanel' could be declared final
+src/View/AddNewItemWindow.java:95:	Potential violation of Law of Demeter (static property access)
+src/View/AddNewItemWindow.java:96:	Potential violation of Law of Demeter (static property access)
+src/View/AddNewItemWindow.java:97:	Potential violation of Law of Demeter (static property access)
+src/View/AppTheme.java:1:	Package name contains upper case characters
+src/View/AppTheme.java:11:	Local variable 'colors' could be declared final
+src/View/AppTheme.java:12:	Local variable 'primary1' could be declared final
+src/View/AppTheme.java:12:	Potential violation of Law of Demeter (object not created locally)
+src/View/AppTheme.java:13:	Potential violation of Law of Demeter (object not created locally)
+src/View/AppTheme.java:14:	Potential violation of Law of Demeter (object not created locally)
+src/View/AppTheme.java:21:	Local variable 'colors' could be declared final
+src/View/AppTheme.java:22:	Local variable 'primary2' could be declared final
+src/View/AppTheme.java:22:	Potential violation of Law of Demeter (object not created locally)
+src/View/AppTheme.java:23:	Potential violation of Law of Demeter (object not created locally)
+src/View/AppTheme.java:24:	Potential violation of Law of Demeter (object not created locally)
+src/View/AppTheme.java:31:	Local variable 'colors' could be declared final
+src/View/AppTheme.java:32:	Local variable 'primary3' could be declared final
+src/View/AppTheme.java:32:	Potential violation of Law of Demeter (object not created locally)
+src/View/AppTheme.java:33:	Potential violation of Law of Demeter (object not created locally)
+src/View/AppTheme.java:34:	Potential violation of Law of Demeter (object not created locally)
+src/View/DetailsPanel.java:7:	Package name contains upper case characters
+src/View/DetailsPanel.java:31:	Private field 'listModel' could be made final; it is only initialized in the declaration or constructor.
+src/View/DetailsPanel.java:39:	It is a good practice to call super() in a constructor
+src/View/DetailsPanel.java:61:	Avoid variables with short names like e
+src/View/DetailsPanel.java:61:	Parameter 'e' is not assigned and could be declared final
+src/View/DetailsPanel.java:63:	Local variable 'selectedItem' could be declared final
+src/View/DetailsPanel.java:64:	Potential violation of Law of Demeter (object not created locally)
+src/View/DetailsPanel.java:65:	Potential violation of Law of Demeter (object not created locally)
+src/View/DetailsPanel.java:78:	Parameter 'item' is not assigned and could be declared final
+src/View/GUI.java:1:	Package name contains upper case characters
+src/View/GUI.java:14:	Avoid unused imports such as 'Controller.TableController'
+src/View/GUI.java:17:	A Classname should have a minimum of five characters
+src/View/GUI.java:19:	Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+src/View/GUI.java:20:	Private field 'top' could be made final; it is only initialized in the declaration or constructor.
+src/View/GUI.java:21:	Private field 'bottom' could be made final; it is only initialized in the declaration or constructor.
+src/View/GUI.java:22:	Perhaps 'addIcon' could be replaced by a local variable.
+src/View/GUI.java:22:	Perhaps 'dateIcon' could be replaced by a local variable.
+src/View/GUI.java:22:	Perhaps 'prioIcon' could be replaced by a local variable.
+src/View/GUI.java:22:	Perhaps 'sortIcon' could be replaced by a local variable.
+src/View/GUI.java:39:	Local variable 'clock' could be declared final
+src/View/GUI.java:46:	The String literal "user.dir" appears 4 times in this file; the first occurrence is on line 46
+src/View/GUIMenu.java:1:	Package name contains upper case characters
+src/View/GUIMenu.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/GUIMenu.java:15:	Private field 'menuBar' could be made final; it is only initialized in the declaration or constructor.
+src/View/GUIMenu.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/GUIMenu.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/GUIMenu.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/GUIMenu.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/GUIMenu.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/GUIMenu.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/GUIMenu.java:36:	Comment is too large: Too many lines
+src/View/GUIMenu.java:116:	Parameter 'Close' is not assigned and could be declared final
+src/View/GUIMenu.java:116:	Parameter 'English' is not assigned and could be declared final
+src/View/GUIMenu.java:116:	Parameter 'File' is not assigned and could be declared final
+src/View/GUIMenu.java:116:	Parameter 'German' is not assigned and could be declared final
+src/View/GUIMenu.java:116:	Parameter 'Language' is not assigned and could be declared final
+src/View/GUIMenu.java:116:	Parameter 'Settings' is not assigned and could be declared final
+src/View/GUIMenu.java:116:	Rather than using a lot of String arguments, consider using a container object for those values.
+src/View/GUIMenu.java:116:	Variables should start with a lowercase character, 'Close' starts with uppercase character.
+src/View/GUIMenu.java:116:	Variables should start with a lowercase character, 'English' starts with uppercase character.
+src/View/GUIMenu.java:116:	Variables should start with a lowercase character, 'File' starts with uppercase character.
+src/View/GUIMenu.java:116:	Variables should start with a lowercase character, 'German' starts with uppercase character.
+src/View/GUIMenu.java:116:	Variables should start with a lowercase character, 'Language' starts with uppercase character.
+src/View/GUIMenu.java:116:	Variables should start with a lowercase character, 'Settings' starts with uppercase character.
+src/View/ItemListCellRenderer.java:1:	Package name contains upper case characters
+src/View/ItemListCellRenderer.java:24:	Parameter 'list' is not assigned and could be declared final
+src/View/ItemListCellRenderer.java:24:	Parameter 'value' is not assigned and could be declared final
+src/View/ItemListCellRenderer.java:25:	Parameter 'cellHasFocus' is not assigned and could be declared final
+src/View/ItemListCellRenderer.java:25:	Parameter 'index' is not assigned and could be declared final
+src/View/ItemListCellRenderer.java:25:	Parameter 'isSelected' is not assigned and could be declared final
+src/View/ItemListCellRenderer.java:36:	Local variable 'item' could be declared final
+src/View/ItemListCellRenderer.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/View/ItemListCellRenderer.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/View/ItemListCellRenderer.java:37:	Potential violation of Law of Demeter (object not created locally)
+src/View/ItemTableCellRenderer.java:1:	Package name contains upper case characters
+src/View/ItemTableCellRenderer.java:17:	Parameter 'table' is not assigned and could be declared final
+src/View/ItemTableCellRenderer.java:18:	Parameter 'value' is not assigned and could be declared final
+src/View/ItemTableCellRenderer.java:19:	Parameter 'isSelected' is not assigned and could be declared final
+src/View/ItemTableCellRenderer.java:20:	Parameter 'hasFocus' is not assigned and could be declared final
+src/View/ItemTableCellRenderer.java:21:	Parameter 'row' is not assigned and could be declared final
+src/View/ItemTableCellRenderer.java:22:	Parameter 'column' is not assigned and could be declared final
+src/View/ItemTableCellRenderer.java:27:	Avoid if (x != y) ..; else ..;
+src/View/ItemTableCellRenderer.java:28:	Potential violation of Law of Demeter (method chain calls)
+src/View/ItemTableCellRenderer.java:28:	Potential violation of Law of Demeter (method chain calls)
+src/View/ItemTableCellRenderer.java:34:	Local variable 'colors' could be declared final
+src/View/ItemTableCellRenderer.java:35:	Potential violation of Law of Demeter (object not created locally)
+src/View/ItemTableCellRenderer.java:36:	Potential violation of Law of Demeter (object not created locally)
+src/View/ItemTableCellRenderer.java:37:	Potential violation of Law of Demeter (object not created locally)
+src/View/LED_Clock.java:1:	Package name contains upper case characters
+src/View/LED_Clock.java:18:	The class 'LED_Clock' has a Cyclomatic Complexity of 19 (Highest = 53).
+src/View/LED_Clock.java:23:	Avoid using redundant field initializer for 'p'
+src/View/LED_Clock.java:23:	Avoid variables with short names like i
+src/View/LED_Clock.java:23:	Avoid variables with short names like j
+src/View/LED_Clock.java:23:	Avoid variables with short names like k
+src/View/LED_Clock.java:23:	Avoid variables with short names like m
+src/View/LED_Clock.java:23:	Avoid variables with short names like n
+src/View/LED_Clock.java:23:	Avoid variables with short names like p
+src/View/LED_Clock.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/LED_Clock.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/LED_Clock.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/LED_Clock.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/LED_Clock.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/LED_Clock.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/LED_Clock.java:23:	Use explicit scoping instead of the default package private level
+src/View/LED_Clock.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/LED_Clock.java:24:	Use explicit scoping instead of the default package private level
+src/View/LED_Clock.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/LED_Clock.java:25:	Use explicit scoping instead of the default package private level
+src/View/LED_Clock.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/LED_Clock.java:26:	Use explicit scoping instead of the default package private level
+src/View/LED_Clock.java:28:	It is a good practice to call super() in a constructor
+src/View/LED_Clock.java:31:	Local variable 'animate' could be declared final
+src/View/LED_Clock.java:32:	Avoid variables with short names like ae
+src/View/LED_Clock.java:32:	Parameter 'ae' is not assigned and could be declared final
+src/View/LED_Clock.java:34:	Potential violation of Law of Demeter (object not created locally)
+src/View/LED_Clock.java:35:	When instantiating a SimpleDateFormat object, specify a Locale
+src/View/LED_Clock.java:36:	When instantiating a SimpleDateFormat object, specify a Locale
+src/View/LED_Clock.java:37:	When instantiating a SimpleDateFormat object, specify a Locale
+src/View/LED_Clock.java:40:	Potential violation of Law of Demeter (object not created locally)
+src/View/LED_Clock.java:40:	Potential violation of Law of Demeter (object not created locally)
+src/View/LED_Clock.java:43:	Potential violation of Law of Demeter (object not created locally)
+src/View/LED_Clock.java:43:	Potential violation of Law of Demeter (object not created locally)
+src/View/LED_Clock.java:46:	Potential violation of Law of Demeter (object not created locally)
+src/View/LED_Clock.java:46:	Potential violation of Law of Demeter (object not created locally)
+src/View/LED_Clock.java:52:	Local variable 'timer' could be declared final
+src/View/LED_Clock.java:60:	Avoid really long methods.
+src/View/LED_Clock.java:60:	Avoid variables with short names like g
+src/View/LED_Clock.java:60:	Parameter 'g' is not assigned and could be declared final
+src/View/LED_Clock.java:60:	The method 'paintComponent' has a Cyclomatic Complexity of 53.
+src/View/LED_Clock.java:60:	The method paintComponent() has an NCSS line count of 834
+src/View/LED_Clock.java:60:	The method paintComponent() has an NPath complexity of 717409
+src/View/LED_Clock.java:63:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:79:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:95:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:111:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:127:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:143:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:159:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:175:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:191:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:207:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:228:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:244:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:260:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:276:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:292:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:308:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:335:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:351:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:367:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:383:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:399:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:415:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:431:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:447:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:463:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:479:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:500:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:516:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:532:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:548:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:564:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:580:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:607:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:623:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:639:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:655:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:671:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:687:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:703:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:719:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:735:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:751:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:772:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:788:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:804:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:820:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:836:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:852:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:868:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:884:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:900:	Avoid using Literals in Conditional Statements
+src/View/LED_Clock.java:916:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:1:	Package name contains upper case characters
+src/View/LED_Timer.java:1:	Possible God class (WMC=60, ATFD=738, TCC=0.0)
+src/View/LED_Timer.java:19:	The class 'LED_Timer' has a Cyclomatic Complexity of 16 (Highest = 53).
+src/View/LED_Timer.java:24:	Avoid using redundant field initializer for 'p'
+src/View/LED_Timer.java:24:	Avoid variables with short names like i
+src/View/LED_Timer.java:24:	Avoid variables with short names like j
+src/View/LED_Timer.java:24:	Avoid variables with short names like k
+src/View/LED_Timer.java:24:	Avoid variables with short names like m
+src/View/LED_Timer.java:24:	Avoid variables with short names like n
+src/View/LED_Timer.java:24:	Avoid variables with short names like p
+src/View/LED_Timer.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/LED_Timer.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/LED_Timer.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/LED_Timer.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/LED_Timer.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/LED_Timer.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/LED_Timer.java:24:	Use explicit scoping instead of the default package private level
+src/View/LED_Timer.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/LED_Timer.java:25:	Use explicit scoping instead of the default package private level
+src/View/LED_Timer.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/LED_Timer.java:26:	Use explicit scoping instead of the default package private level
+src/View/LED_Timer.java:27:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/LED_Timer.java:27:	Use explicit scoping instead of the default package private level
+src/View/LED_Timer.java:29:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/LED_Timer.java:29:	Use explicit scoping instead of the default package private level
+src/View/LED_Timer.java:30:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/LED_Timer.java:30:	Use explicit scoping instead of the default package private level
+src/View/LED_Timer.java:31:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/LED_Timer.java:31:	Use explicit scoping instead of the default package private level
+src/View/LED_Timer.java:33:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/LED_Timer.java:33:	Private field 'myTimer1' could be made final; it is only initialized in the declaration or constructor.
+src/View/LED_Timer.java:37:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/LED_Timer.java:39:	It is a good practice to call super() in a constructor
+src/View/LED_Timer.java:41:	Local variable 'btnpanel' could be declared final
+src/View/LED_Timer.java:52:	Parameter 'evt' is not assigned and could be declared final
+src/View/LED_Timer.java:70:	Parameter 'evt' is not assigned and could be declared final
+src/View/LED_Timer.java:76:	Parameter 'evt' is not assigned and could be declared final
+src/View/LED_Timer.java:82:	Parameter 'evt' is not assigned and could be declared final
+src/View/LED_Timer.java:94:	Local variable 'animate' could be declared final
+src/View/LED_Timer.java:95:	Avoid variables with short names like ae
+src/View/LED_Timer.java:95:	Parameter 'ae' is not assigned and could be declared final
+src/View/LED_Timer.java:99:	Local variable 'timer' could be declared final
+src/View/LED_Timer.java:107:	Avoid really long methods.
+src/View/LED_Timer.java:107:	Avoid variables with short names like g
+src/View/LED_Timer.java:107:	Parameter 'g' is not assigned and could be declared final
+src/View/LED_Timer.java:107:	The method 'paintComponent' has a Cyclomatic Complexity of 53.
+src/View/LED_Timer.java:107:	The method paintComponent() has an NCSS line count of 834
+src/View/LED_Timer.java:107:	The method paintComponent() has an NPath complexity of 717409
+src/View/LED_Timer.java:110:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:126:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:142:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:158:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:174:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:190:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:206:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:222:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:238:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:254:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:274:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:290:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:306:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:322:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:338:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:354:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:381:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:397:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:413:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:429:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:445:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:461:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:477:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:493:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:509:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:525:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:545:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:561:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:577:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:593:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:609:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:625:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:653:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:669:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:685:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:701:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:717:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:734:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:750:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:766:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:782:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:798:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:818:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:834:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:850:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:867:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:883:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:899:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:915:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:931:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:947:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:963:	Avoid using Literals in Conditional Statements
+src/View/LED_Timer.java:986:	Parameter 'args' is not assigned and could be declared final
+src/View/LED_Timer.java:988:	Avoid variables with short names like a
+src/View/LED_Timer.java:988:	Local variable 'a' could be declared final
+src/View/LED_Timer.java:989:	Avoid variables with short names like f
+src/View/LED_Timer.java:989:	Local variable 'f' could be declared final
+src/View/TablePanel.java:1:	Package name contains upper case characters
+src/View/TablePanel.java:4:	Avoid unused imports such as 'java.awt.event.ActionEvent'
+src/View/TablePanel.java:5:	Avoid unused imports such as 'java.awt.event.ActionListener'
+src/View/TablePanel.java:6:	Avoid unused imports such as 'java.awt.event.MouseAdapter'
+src/View/TablePanel.java:7:	Avoid unused imports such as 'java.awt.event.MouseEvent'
+src/View/TablePanel.java:8:	Avoid unused imports such as 'java.util.ArrayList'
+src/View/TablePanel.java:15:	Avoid unused imports such as 'javax.swing.table.AbstractTableModel'
+src/View/TablePanel.java:18:	Avoid unused imports such as 'Model.Item'
+src/View/TablePanel.java:27:	Avoid unused private fields such as 'tableModel'.
+src/View/TablePanel.java:27:	Perhaps 'tableModel' could be replaced by a local variable.
+src/View/TablePanel.java:27:	Private field 'tableModel' could be made final; it is only initialized in the declaration or constructor.
+src/View/TablePanel.java:28:	Private field 'table' could be made final; it is only initialized in the declaration or constructor.
+src/View/TablePanel.java:29:	Private field 'popup' could be made final; it is only initialized in the declaration or constructor.
+src/View/TablePanel.java:30:	Private field 'menuDelItem' could be made final; it is only initialized in the declaration or constructor.
+src/View/TablePanel.java:33:	Parameter 'tableModel' is not assigned and could be declared final
+src/View/TablePanel.java:41:	Local variable 'scrollPane' could be declared final
+src/View/TablePanel.java:71:	Parameter 'item' is not assigned and could be declared final
+src/View/TablePanel.java:72:	Local variable 'value' could be declared final
+src/View/TablePanel.java:72:	Use equals() to compare object references.
+src/View/TablePanel.java:72:	Useless parentheses.
+src/View/TablePanel.java:72:	Useless parentheses.
+src/View/TablePanel.java:73:	Consider simply returning the value vs storing it in local variable 'value'
+src/View/TodaysItemsWindow.java:1:	Package name contains upper case characters
+src/View/TodaysItemsWindow.java:5:	Avoid unused imports such as 'java.util.ArrayList'
+src/View/TodaysItemsWindow.java:21:	Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+src/View/TodaysItemsWindow.java:25:	Private field 'database' could be made final; it is only initialized in the declaration or constructor.
+src/View/TodaysItemsWindow.java:33:	Local variable 'items' could be declared final
+src/View/TodaysItemsWindow.java:33:	Potential violation of Law of Demeter (method chain calls)
+src/View/TodaysItemsWindow.java:34:	Local variable 'listModel' could be declared final
+src/View/TodaysItemsWindow.java:37:	Local variable 'iter' could be declared final
+src/View/TodaysItemsWindow.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/View/TodaysItemsWindow.java:38:	Local variable 'current' could be declared final
+src/View/TodaysItemsWindow.java:44:	Comment is too large: Line too long
+src/View/customListModel.java:1:	Package name contains upper case characters
+src/View/customListModel.java:4:	Avoid unused imports such as 'java.util.List'
+src/View/customListModel.java:11:	Class names should begin with an uppercase character
+src/View/customListModel.java:13:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/View/customListModel.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/View/customListModel.java:13:	Private field 'data' could be made final; it is only initialized in the declaration or constructor.
+src/View/customListModel.java:15:	It is a good practice to call super() in a constructor
+src/View/customListModel.java:15:	Parameter 'items' is not assigned and could be declared final
+src/View/customListModel.java:21:	System.out.print is used
+src/View/customListModel.java:33:	Parameter 'index' is not assigned and could be declared final
+src/View/customListModel.java:35:	System.out.print is used
+src/View/customListModel.java:36:	Potential violation of Law of Demeter (method chain calls)
